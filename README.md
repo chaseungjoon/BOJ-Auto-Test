@@ -28,6 +28,7 @@ pip install -r requirements.txt
 ```
 
 - script 함수 설정
+
 bash / zsh
 ```
 open ~/.zshrc
@@ -44,6 +45,11 @@ testpy() {
 testcpp() {
   g++ -o execute 푼코드파일주소 && python3 main.py의 주소 "$1"
 }
+```
+script 함수 적용
+```
+source ~/.bashrc
+source ~/.zshrc
 ```
 ### 2. 실행
 1) 문제를 푼다
