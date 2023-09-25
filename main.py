@@ -49,7 +49,7 @@ def run_tests(example_inputs, example_outputs):
         process = subprocess.Popen(code_info, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         stdout, stderr = process.communicate(input=input_data)
         stdout = str(stdout).strip()
-        
+        stdout = '\n'.join(line.rstrip() for line in stdout.split('\n'))
 
         if stdout == expected_output:
             print(f"Test {i+1} passed")
