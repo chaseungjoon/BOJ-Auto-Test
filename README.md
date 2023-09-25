@@ -7,9 +7,14 @@
 
 문제를 푼 코드 파일의 주소를 line 7에 적는다.
 
-- C / C++ 로 푸는 경우
+- C / C++ 로 푸는 경우 (컴파일 언어)
 
 문제를 푼 코드를 컴파일 하고, executable 파일의 주소를 line7에 적는다
+
+line 8을 지우고, line 9를 다음과 같이 고친다
+```
+code_info = [code_dir]
+```
 
 ### 1. main.py 다운
 - git clone
