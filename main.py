@@ -47,7 +47,7 @@ def run_tests(example_inputs, example_outputs):
         expected_output = example_outputs[i]
         
         process = subprocess.Popen(code_info, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        stdout = process.communicate(input=input_data)[0]
+        stdout, stderr = process.communicate(input=input_data)
         stdout = str(stdout).strip()
         
 
@@ -55,7 +55,7 @@ def run_tests(example_inputs, example_outputs):
             print(f"Test {i+1} passed")
             passed += 1
         else:
-            print(f"\nTest {i+1} failed\ngot '{stdout.strip()}', expected '{expected_output.strip()}'\n")
+            print(f"\nTest {i+1} failed\ngot '{stdout.strip()}', expected '{expected_output.strip()}'\n{stderr}")
             
     print(f"\n{passed}/{total} tests passed")
 
