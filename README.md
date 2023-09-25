@@ -55,6 +55,7 @@ testcpp 1002
 2-1) script 함수를 설정하지 않은 경우
 ```
 cd BOJ-Auto-Test
+(c/c++ 이면 컴파일 먼저 하고)
 python main.py 1002
 ```
 3) 결과
