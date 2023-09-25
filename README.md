@@ -34,5 +34,10 @@ testpy() {
 ```
 testpy 1002
 ```
+2-1) script 함수를 설정하지 않은 경우
+```
+cd BOJ-Auto-Test
+python main.py 1002
+```
 3) 결과
 <img width="740" alt="image" src="https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/3644b418-880f-4bbb-b26c-1060e5b28e30">
