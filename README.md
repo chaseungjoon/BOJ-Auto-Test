@@ -43,7 +43,7 @@ testpy() {
 2) C / C++ 로 푼 경우
 ```
 testcpp() {
-  g++ -o execute 푼코드파일주소 && python3 main.py의 주소 "$1"
+  g++ -o execuatble주소 푼코드파일주소 && python3 main.py의 주소 "$1"
 }
 ```
 ### script 함수 적용
