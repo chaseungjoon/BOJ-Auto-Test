@@ -33,9 +33,16 @@ bash / zsh
 open ~/.zshrc
 open ~/.bashrc
 ```
+1) Python 으로 푼 경우
 ```
 testpy() {
   python3 main.py의 주소 "$1"
+}
+```
+2) C / C++ 로 푼 경우
+```
+testcpp() {
+  g++ -o execute 푼코드파일주소 && python3 main.py의 주소 "$1"
 }
 ```
 ### 2. 실행
@@ -43,6 +50,7 @@ testpy() {
 2) 터미널에서 위에서 정한 script 함수를 문제 번호와 함께 실행한다
 ```
 testpy 1002
+testcpp 1002
 ```
 2-1) script 함수를 설정하지 않은 경우
 ```
