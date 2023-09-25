@@ -55,7 +55,7 @@ def run_tests(example_inputs, example_outputs):
             print(f"Test {i+1} passed")
             passed += 1
         else:
-            print(f"\nTest {i+1} failed\ngot '{stdout.strip()}', expected '{expected_output.strip()}'\n{stderr}")
+            print(f"\n***Test {i+1} failed***\n\nMy Output\n\n'{stdout}'\n\nExpected Output\n\n'{expected_output.strip()}'\n\n{stderr}")
             
     print(f"\n{passed}/{total} tests passed")
 
