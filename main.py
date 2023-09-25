@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
 code_dir = "문제 푼 코드파일 디렉토리"
+code_lang = 'python'
 ua = UserAgent()
 user_agent = ua.random
 headers = {
@@ -44,7 +45,7 @@ def run_tests(example_inputs, example_outputs):
         input_data = example_inputs[i]
         expected_output = example_outputs[i]
         
-        process = subprocess.Popen(['python', code_dir], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        process = subprocess.Popen([code_lang, code_dir], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         stdout = process.communicate(input=input_data)[0]
         stdout = str(stdout).strip()
         
