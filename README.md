@@ -1,5 +1,7 @@
 # BOJ-Auto-Test
 
+<img width="575" alt="스크린샷 2023-09-26 오전 11 14 16" src="https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/599936d7-4654-42aa-ac65-aee6a9fb9cc0">
+
 예제 일일이 복붙하기 귀찮았죠? 자동화 합시다
 
 ## 0. 환경 세팅
