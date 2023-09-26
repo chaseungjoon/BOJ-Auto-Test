@@ -8,15 +8,20 @@
 - ### Python으로 푸는 경우
 
   문제를 푼 코드 파일의 주소를 line 7에 적는다. (❗이거 계속 수정하기 귀찮으니까 그 파일에 계속 푸는걸로)
+  ```
+  code_dir = ~/Desktop/Code/solve.py
+  ```
 
 - ### C / C++ 로 푸는 경우 (컴파일 언어)
 
   문제를 푼 코드를 컴파일 할 executable 파일의 주소를 line7에 적는다 (컴파일은 나중에 터미널 script 함수에서 한꺼번에 할 예정)
-
-  line 8을 지우고, line 9를 다음과 같이 고친다
-```
-code_info = [code_dir]
-```
+  ```
+  code_dir = ~/Desktop/Code/executeable
+  ```
+  line 9를 다음과 같이 고친다
+  ```
+  code_info = [code_dir]
+  ```
 
 ## 1. main.py 다운
 - ### git clone
