@@ -41,13 +41,13 @@ bash / zsh
 open ~/.zshrc
 open ~/.bashrc
 ```
-1) Python 으로 푼 경우
+1) Python 으로 푼 경우 - main.py 실행
 ```
 testpy() {
   python3 main.py의 주소 "$1"
 }
 ```
-2) C / C++ 로 푼 경우
+2) C / C++ 로 푼 경우 - 코드 컴파일 + main.py 실행
 ```
 testcpp() {
   g++ -o execuatble주소 푼코드파일주소 && python3 main.py의 주소 "$1"
