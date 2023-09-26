@@ -52,12 +52,17 @@ def run_tests(example_inputs, example_outputs):
         stdout = '\n'.join(line.rstrip() for line in stdout.split('\n'))
 
         if stdout == expected_output:
-            print(f"Test {i+1} passed")
+            print(f"\033[92mTest {i+1} passed")
             passed += 1
         else:
-            print(f"\n***Test {i+1} failed***\n\nMy Output\n\n'{stdout}'\n\nExpected Output\n\n'{expected_output.strip()}'\n\n{stderr}")
+            print(f"\033[91m***Test {i+1} failed***\n\033[93mMy Output\n\n'{stdout}'\n\nExpected Output\n\n'{expected_output.strip()}'\n\n{stderr}")
             
-    print(f"\n{passed}/{total} tests passed")
+    if passed==total:
+        print(f"\033[92m{passed}/{total} tests passed")
+    elif passed==0:
+        print(f"\033[91m{passed}/{total} tests passed")
+    else:
+        print(f"\033[93m{passed}/{total} tests passed")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
