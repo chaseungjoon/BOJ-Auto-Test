@@ -65,4 +65,4 @@ cd BOJ-Auto-Test
 python main.py 1002
 ```
 3) 결과
-<img width="740" alt="image" src="https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/3644b418-880f-4bbb-b26c-1060e5b28e30">
+<img width="575" alt="스크린샷 2023-09-26 오전 11 14 16" src="https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/c723baf8-7f69-424a-bde8-e3df593ef79c">
