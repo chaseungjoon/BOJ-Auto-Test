@@ -1,6 +1,6 @@
 # BOJ-Auto-Test
 
-<img width="575" alt="스크린샷 2023-09-26 오전 11 14 16" src="https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/599936d7-4654-42aa-ac65-aee6a9fb9cc0">
+![image](https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/a0021755-6a51-46f6-9a6e-96487eb96df7)
 
 예제 일일이 복붙하기 귀찮았죠? 자동화 합시다
 
@@ -75,4 +75,5 @@ python main.py 1002
 ```
 3) 결과
 ![image](https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/a0021755-6a51-46f6-9a6e-96487eb96df7)
+<img width="575" alt="스크린샷 2023-09-26 오전 11 14 16" src="https://github.com/chaseungjoon/BOJ-Auto-Test/assets/101884270/599936d7-4654-42aa-ac65-aee6a9fb9cc0">
 
