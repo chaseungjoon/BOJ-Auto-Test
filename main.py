@@ -65,7 +65,7 @@ def run_tests(example_inputs, example_outputs):
         print(f"\033[93m{passed}/{total} tests passed")
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 1 and sys.argv[1]!='':
         problem_number = sys.argv[1]
         print(f"\n{problem_number} Testing...")
         example_inputs, example_outputs = crawl_problem_examples(problem_number)
