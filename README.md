@@ -41,6 +41,8 @@ bash / zsh
 open ~/.zshrc
 open ~/.bashrc
 ```
+파일 맨 밑에 다음과 같이 script 함수를 추가한다
+
 1) Python 으로 푼 경우 - main.py 실행
 ```
 testpy() {
