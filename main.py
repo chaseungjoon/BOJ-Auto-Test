@@ -51,6 +51,10 @@ def run_tests(example_inputs, example_outputs):
         stdout = str(stdout).strip()
         stdout = '\n'.join(line.rstrip() for line in stdout.split('\n'))
 
+        #newline character error fix
+        stdout = stdout.replace('\r\n', '\n')
+        expected_output = expected_output.replace('\r\n', '\n')
+
         if stdout == expected_output:
             print(f"\033[92mTest {i+1} passed")
             passed += 1
