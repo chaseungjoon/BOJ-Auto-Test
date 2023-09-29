@@ -79,5 +79,5 @@ python main.py 1002
 
 ## Updates
 
-09/29/23 - newline character '\r\n' 과 '\n' 차이로 틀렸다는 결과 나오는 것 고침
+09/29/23 - newline character '\r\n' 과 '\n' 차이로 맞아도 틀렸다고 나오는 것 고침
 
