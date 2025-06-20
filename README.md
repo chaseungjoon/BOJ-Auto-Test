@@ -5,6 +5,12 @@
 * 현재 Python, C, C++ 언어를 지원합니다.
 * 백준에서 테스트 케이스를 가져와, 자동으로 테스트 합니다.
 
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/653a9b23-4269-4a57-bda9-ce470ac89b10" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/16edad4f-0460-46a1-9457-20335f741e99" />
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/dc6f3b46-56d5-4fbc-96c5-e7b10b2395b4" />
+
+
+
 ---
 # 사용법
 
