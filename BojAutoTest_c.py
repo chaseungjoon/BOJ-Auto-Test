@@ -3,9 +3,10 @@ import requests
 import sys
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
+from CodePaths import c_path
 import os
 
-code_exec = os.getenv("CODE_PATH") + "/c/test"
+code_exec = c_path
 ua = UserAgent()
 headers = { 'User-Agent': ua.random }
 

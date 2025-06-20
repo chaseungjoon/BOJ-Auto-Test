@@ -3,9 +3,9 @@ import requests
 import sys
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
-import os
+from CodePaths import py_path
 
-code_dir = os.getenv("PY_PATH")
+code_dir = py_path
 code_lang = 'python'
 ua = UserAgent()
 user_agent = ua.random
